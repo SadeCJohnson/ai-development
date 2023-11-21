@@ -1,7 +1,10 @@
 import openai
 client = openai
 
-openai.api_key = "<INSERT YOUR OPENAPI API KEY HERE>"
+#openai.api_key = "<INSERT YOUR OPENAPI API KEY HERE>"
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 completion = client.chat.completions.create(
