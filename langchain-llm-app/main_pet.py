@@ -1,7 +1,7 @@
 import pet_name_generator as pg #pg is short for pet generator; I didn't want to use png as that can be confusing with the PNG extension
 import streamlit as st #st is short for streamlit
 
-st.title("Pets name generator")
+st.title("Pet name generator")
 
 #allows the user to select the necessary types from a sidebar in the browser
 user_animal_type = st.sidebar.selectbox("Select your pet of choice:", ("Cat", "Dog", "Cow",

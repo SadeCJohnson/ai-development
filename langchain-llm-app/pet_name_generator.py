@@ -47,7 +47,7 @@ def langchain_agent():
             "What is the average age of a dog? Multuply the age by 3" #this is why we imported the llm-math tool
         )
 
-if __name__ == "__main__":
+if __name__ == "__main_pet__":
      langchain_agent()
 
   #  print(generate_pet_name("cat", "black")) #returns a json response #Commented this line of code when adding the agent
