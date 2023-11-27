@@ -13,7 +13,7 @@ with st.sidebar:
         )
 
         query = st.sidebar.text_area(
-            label="Ask me about the video?",
+            label="What questions do you have about this video?",
             max_chars=50,
             key="query"
         )
