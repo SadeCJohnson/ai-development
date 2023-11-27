@@ -66,4 +66,4 @@ def get_response_from_query(db, query, k=4): #k represents the # of Documents to
 
     response = chain.run(question=query, docs=docs_page_content)
     response = response.replace("\n", "") #formatting
-    return response
+    return response, docs
