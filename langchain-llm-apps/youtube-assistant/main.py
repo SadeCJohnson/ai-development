@@ -24,6 +24,6 @@ with st.sidebar:
 
 if query and youtube_url: #if both of the paramaters exist
      db = yta.create_vector_db_from_youtube_url(youtube_url)
-     response, docs = yta.get_response_from_query(db, query) #FIXME: this line throws the following error: ValueError: too many values to unpack (expected 2) 
+     response, docs = yta.get_response_from_query(db, query)
      st.subheader("Answer:")
      st.text(textwrap.fill(response, width = 85))
