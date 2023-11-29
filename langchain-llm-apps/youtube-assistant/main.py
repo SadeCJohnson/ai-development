@@ -7,12 +7,10 @@ st.title("YouTube Assistant")
 
 with st.sidebar:
     with st.form(key="my_form"):
-        submit_button = st.form_submit_button(label='Submit') 
         youtube_url = st.sidebar.text_area(
             label="Enter the url for the YouTube video: ",
             max_chars=50 #don't want the video url to exceed 50 characters
         )
-
         query = st.sidebar.text_area(
             label="What questions do you have about this video?",
             max_chars=50,
@@ -24,6 +22,7 @@ with st.sidebar:
             max_chars=60,
             type="password"
         )
+        submit_button = st.form_submit_button(label='Submit') 
 
 
 
