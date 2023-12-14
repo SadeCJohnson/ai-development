@@ -1,14 +1,3 @@
-## Table of contents
-
-- Requirements
-- Recommended modules
-- Installation
-- Configuration
-- Troubleshooting
-- FAQ
-- Maintainers
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
