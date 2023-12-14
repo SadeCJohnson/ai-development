@@ -31,6 +31,46 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+### Technologies used:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+### Installation
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE EXAMPLES -->
+## Usage
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- Project Enhancements -->
+## Project Enhancements
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- Contributing -->
+## Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- License -->
+## License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Contact -->
+## Contact
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
