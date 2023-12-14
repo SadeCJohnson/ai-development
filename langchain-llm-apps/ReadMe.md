@@ -93,7 +93,5 @@ This repository consists of 2 projects that use the OpenAI and Langchain technol
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template/tree/master)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

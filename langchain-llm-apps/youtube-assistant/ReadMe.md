@@ -108,7 +108,6 @@ This project showcases an AI assistant that provides plant based health advice b
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template/tree/master)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
