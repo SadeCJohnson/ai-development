@@ -2,6 +2,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
+## Table of Contents
   <ol>
     <li>
       <a href="#about-the-project">Project Overview:</a>
