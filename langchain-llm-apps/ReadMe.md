@@ -37,7 +37,15 @@ This repository consists of 2 projects that use the OpenAI and Langchain technol
 
 
 ### Technologies used:
+
+#### Hardware: 
+* MacBook Pro running the **Ventura 13.6.1** macOS
+
+#### Software:
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
