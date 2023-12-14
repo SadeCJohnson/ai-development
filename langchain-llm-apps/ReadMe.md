@@ -80,7 +80,7 @@ This repository consists of 2 projects that use the OpenAI and Langchain technol
 
 <!-- Contact -->
 ## Contact
-***Coming Soon! ***
+***Coming Soon!***
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
