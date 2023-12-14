@@ -40,7 +40,7 @@ This project showcases an AI assistant that provides plant based health advice b
 
 #### Software:
 | **TOOL**       | **TYPE**| **Version**| **Comments**
-| :---------------- | :------: | ----: |  ----: 
+| :---------------- | :------: | ----: |  ----: | 
 | Visual Studio Code (VSCode)         |   Text Editor  | 1.76.2 |
 | Python         |   Programming Language   | 3.11.2 |
 | OpenAI         |   LLM   | latest |
