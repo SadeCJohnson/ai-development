@@ -29,8 +29,8 @@
 <!-- ABOUT THE PROJECT -->
 ## Project Overview:
 This repository consists of 2 projects that use the OpenAI and Langchain technologies.
-* A pet name generator application
-* An AI assistant application
+* A [pet name generator application](/pet-name-generator/)
+* An [AI assistant application](/youtube-assistant/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
