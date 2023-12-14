@@ -22,4 +22,17 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details>
+
+<!-- ABOUT THE PROJECT -->
+## Project Overview:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template/tree/master)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
