@@ -31,7 +31,6 @@
 This repository consists of 2 projects that use the OpenAI and Langchain technologies.
 * A pet name generator application
 * An AI assistant application
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
