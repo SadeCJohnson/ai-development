@@ -49,45 +49,39 @@ This repository consists of 2 projects that use the OpenAI and Langchain technol
 | OpenAI         |   LLM   | latest |
 | LangChain       |  Python Framework  | lastest |
 
-
-
-
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+<!--## Getting Started
 
 ### Prerequisites
 ### Installation
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-## Usage
+<!--## Usage
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- Project Enhancements -->
-## Project Enhancements
+<!--## Project Enhancements
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- Contributing -->
-## Contributing
+<!--<!--## Contributing
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- License -->
-## License
+<!--## License
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Contact -->
 ## Contact
+***Coming Soon! ***
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 
