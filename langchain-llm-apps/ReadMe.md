@@ -36,12 +36,23 @@ This repository consists of 2 projects that use the OpenAI and Langchain technol
 
 
 
-### Technologies used:
+### General Technologies used in both projects:
 
 #### Hardware: 
 * MacBook Pro running the **Ventura 13.6.1** macOS
 
 #### Software:
+| **TOOL**       | **TYPE**| **Version***|
+| :---------------- | :------: | ----: |
+| Visual Studio Code (VSCode)         |   Text Editor  | 1.76.2 |
+| Python         |   Programming Language   | 3.11.2 |
+| OpenAI         |   LLM   | latest |
+| LangChain       |  Python Framework  | lastest |
+
+
+
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
