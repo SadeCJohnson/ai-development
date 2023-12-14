@@ -3,7 +3,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <!--<details> -->
-  <summary>Table of Contents</summary>
+## Table of Contents
   <ol>
     <li>
       <a href="#about-the-project">Project Overview:</a>
@@ -11,7 +11,6 @@
         <li><a href="#built-with">Technologies used:</a></li>
       </ul>
     </li>
-    <li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
      <!-- <a href="#getting-started">Getting Started</a>
@@ -43,12 +42,12 @@ This repository consists of 2 projects that use the OpenAI and Langchain technol
 * MacBook Pro running the **Ventura 13.6.1** macOS
 
 #### Software:
-| **TOOL**       | **TYPE**| **Version***|
+| **TOOL**       | **TYPE**| **Version**|
 | :---------------- | :------: | ----: |
 | Visual Studio Code (VSCode)         |   Text Editor  | 1.76.2 |
 | Python         |   Programming Language   | 3.11.2 |
 | OpenAI         |   LLM   | latest |
-| LangChain       |  Python Framework  | lastest |
+| LangChain       |  Python Framework  | latest |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
