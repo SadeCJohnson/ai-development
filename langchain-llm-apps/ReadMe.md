@@ -14,7 +14,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project:</a>
+      <a href="#about-the-project">Project Overview:</a>
       <ul>
         <li><a href="#built-with">Technologies used:</a></li>
       </ul>
