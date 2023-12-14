@@ -61,32 +61,41 @@ This project showcases an AI assistant that provides plant based health advice b
 
 <!-- GETTING STARTED -->
 ## Getting Started
+***COMING SOON***
 
 ### Prerequisites
+***COMING SOON***
+
 ### Installation
+***COMING SOON***
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+***COMING SOON***
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- Project Enhancements -->
 ## Project Enhancements
+***COMING SOON***
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- Contributing -->
 ## Contributing
+***COMING SOON***
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- License -->
 ## License
+***COMING SOON***
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Contact -->
 ## Contact
+***COMING SOON***
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
