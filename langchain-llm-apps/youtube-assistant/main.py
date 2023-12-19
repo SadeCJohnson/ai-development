@@ -1,4 +1,5 @@
 import streamlit as st
+import packaging.version
 import youtube_assistant as yta 
 import textwrap #Gives the ability to wrap text so we don't have to scroll the page
 
