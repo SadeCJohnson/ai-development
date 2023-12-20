@@ -4,16 +4,12 @@ import youtube_assistant as yta
 import textwrap #Gives the ability to wrap text so we don't have to scroll the page
 
 
-st.title("YouTube Assistant")
+st.title(" :pink[Virtual Health Coach]")
 
 with st.sidebar:
     with st.form(key="my_form"):
-        youtube_url = st.sidebar.text_area(
-            label="Enter the url for the YouTube video: ",
-            max_chars=50 #don't want the video url to exceed 50 characters
-        )
         query = st.sidebar.text_area(
-            label="What questions do you have about this video?",
+            label="What health questions do you have?",
             max_chars=50,
             key="query"
         )
@@ -27,12 +23,12 @@ with st.sidebar:
 
 
 
-if query and youtube_url: #if both of the paramaters exist
+if query: # and youtube_url: #if both of the paramaters exist
     if not openai_api_key:
-         st.info("Please insert your OpenAI API key in order to unleash the power of this AI Youtube Assistant.")
+         st.info("Please insert your OpenAI API key in order to unleash the power of this Virtual Health Coach.")
          st.stop()
     else:
-     db = yta.create_vector_db_from_youtube_url(youtube_url)
+     db = yta.create_vector_db_from_youtube_url("https://www.youtube.com/watch?v=a3PjNwXd09M")
      response, docs = yta.get_response_from_query(db, query)
      st.subheader("Answer:")
      st.text(textwrap.fill(response, width = 85))
