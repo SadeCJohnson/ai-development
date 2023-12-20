@@ -36,12 +36,15 @@ def create_vector_db_from_youtube_url(video_url:str) -> FAISS:
 
 def get_response_from_query(db, query, k=4): #k represents the # of Documents to send to stay within the token context window
     #text-davinci-003 has a context window of 4096 tokens
+    # gpt-4-1106-preview has a context window of 128,000 tokens and has training data from up to April 2023
 
     docs = db.similarity_search(query, k=k) #this will only search the documents relevant to the user's query
     docs_page_content = " ".join([d.page_content for d in docs]) #combines the 4 docs into a single doc
 
-    #Work with the LLM
-    llm = OpenAI(model="text-davinci-003")
+    #Work with the LLM - 
+    #TODO: Upgrade the LLM to gpt-4-1106-preview since it has a larger context window
+    llm = OpenAI(model="text-davinci-003") #This LLM deprecates on Jan 4th 2024
+    #llm = OpenAI(model="gpt-4-1106-preview")
 
     #Work with the Prompt
     prompt = PromptTemplate(
