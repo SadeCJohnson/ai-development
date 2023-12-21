@@ -42,6 +42,7 @@ This project showcases an AI assistant that provides plant based health advice b
 | :---------------- | :------: | ----: |  :----: | 
 | Visual Studio Code (VSCode)         |   Text Editor  | 1.76.2 |
 | Python         |   Programming Language   | 3.11.2 |
+| FAISS       |  Vector source | 1.7.4 | 
 | OpenAI         |   LLM   | latest |
 | LangChain       |  Python Framework  | lastest |
 | YouTube       |  Video Sharing Platform  | lastest | 
