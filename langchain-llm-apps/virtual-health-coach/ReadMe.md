@@ -40,11 +40,11 @@ This project showcases an AI assistant that provides plant based health advice b
 #### Software:
 | **TOOL**       | **TYPE**| **Version**| **Comments**
 | :---------------- | :------: | ----: |  :----: | 
-| Visual Studio Code (VSCode)         |   Text Editor  | 1.76.2 |
-| Python         |   Programming Language   | 3.11.2 |
-| FAISS       |  Vector source | 1.7.4 | 
-| OpenAI         |   LLM   | latest |
-| LangChain       |  Python Framework  | lastest |
+| Visual Studio Code (VSCode)         |   Text Editor  | 1.76.2 | Used for the development of the project.
+| Python         |   Programming Language   | 3.11.2 | Used to develop the project.
+| FAISS       |  Vector source | 1.7.4 | The Facebook Artificial Intelligence Similarity Search was used as the vector source.
+| OpenAI         |   LLM   | latest | Used as the Large Language Model (LLM).
+| LangChain       |  Python Framework  | lastest | The framework used to facilitate the creation and development of the Virtual Health Coach app, that leverages the OpenAI LLM.
 | YouTube       |  Video Sharing Platform  | lastest | 
 | StreamLit       | Interactive data app creation tool | lastest | This was used to build an interactive UI for users to engage with the application.
 
