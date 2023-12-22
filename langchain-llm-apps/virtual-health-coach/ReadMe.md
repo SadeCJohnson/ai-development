@@ -39,7 +39,7 @@
 
 #### **Hardware:** 
 | **TOOL**       | **TYPE**| **Operating System**| **Version**| **Comments**
-| :----------------: | :------: |  :------: |----: |  :----: | 
+| :----------------: | :------: |  :------: | :----: |  :----: | 
 | MacBook Pro         |   Hardware Device | MacOS | Ventura 13.6.1 | Used for the development of the project.
 
 #### **Software:**
