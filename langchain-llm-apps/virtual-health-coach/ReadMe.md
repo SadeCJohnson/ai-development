@@ -28,7 +28,11 @@
 <!-- ABOUT THE PROJECT -->
 ## Project Overview:
 
-This project showcases an AI assistant that provides plant based health advice based on a YouTube video.
+**TL;DR (Brief summary)** This project showcases an AI assistant that provides plant based health advice based on a YouTube video.
+In the United States, approximately [80% of the population](https://thedesireddesk.com/what-percentage-of-americans-work-desk-jobs/) holds sedentary jobs. This lifestyle, characterized by insufficient physical activity and often coupled with poor nutritional choices, can lead to various chronic diseases. To combat this issue, there are several strategies that workers can adopt to enhance their health. One effective approach is transitioning to a plant-based lifestyle. To facilitate this change, a user-friendly AI health app has been developed, serving as a Virtual Health Coach. This app enables users to input any health-related questions they have, providing personalized guidance and support in adopting healthier habits.
+
+
+**Inspiration:** 
 
 
 
