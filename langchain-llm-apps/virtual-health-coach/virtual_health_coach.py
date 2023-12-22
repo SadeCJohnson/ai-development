@@ -7,7 +7,13 @@ from langchain.chains import LLMChain
 from langchain.vectorstores.faiss import FAISS # faiss -> Facebook AI Similarity Search library
 from dotenv import load_dotenv
 
+# New Relic AI Monitoring - STEP 1
+from nr_openai_observability.langchain_callback import NewRelicCallbackHandler
+
 load_dotenv()
+
+# Initialize New Relic CallBack Handler, for the AI Monitoring - STEP 2
+new_relic_monitor = NewRelicCallbackHandler("Virtual Health Coach", license_key="<INSERT YOUR LICENSE KEY HERE>")
 
 embeddings = OpenAIEmbeddings()
 
@@ -67,6 +73,8 @@ def get_response_from_query(db, query, k=4): #k represents the # of Documents to
     #Work with the Chain component
     chain = LLMChain(llm=llm, prompt=prompt)
 
+    # Run the Langchain module with the New Relic Callback - STEP 3
     response = chain.run(question=query, docs=docs_page_content)
+  #  print("Agent has successfully completed.")
     response = response.replace("\n", "") #formatting
-    return response, docs
+    return response, docs 
