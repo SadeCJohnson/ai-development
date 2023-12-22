@@ -46,7 +46,7 @@
 | Visual Studio Code (VSCode)         |   Text Editor  | 1.76.2 | Used for the development of the project.
 | Python         |   Programming Language   | 3.11.2 | Used to develop the project.
 | FAISS       |  Vector source | 1.7.4 | The Facebook Artificial Intelligence Similarity Search was used as the vector source.
-| OpenAI         |   LLM   | latest | Used as the Large Language Model (LLM).
+| OpenAI         |   LLM   | latest | Used as the Large Language Model (LLM). The Chat GPT-3.5 `text-davinci-003` model was used in the initial iteration of this project. However, this particular model will be deprecated on Jan 4th 2024, so an upgrade to a compatible model will be required. 
 | LangChain       |  Python Framework  | latest | The framework used to facilitate the creation and development of the Virtual Health Coach app, that leverages the OpenAI LLM.
 | YouTube       |  Video Sharing Platform  | latest | An American online video sharing platform.
 | StreamLit       | Interactive data app creation tool | latest | This was used to build an interactive UI for users to engage with the application.
@@ -113,4 +113,5 @@
 
 
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template/tree/master)
+* [Simon Hill PROVES The Merits of A PLANT-BASED DIET | Rich Roll Podcast](https://www.youtube.com/watch?v=a3PjNwXd09M)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
