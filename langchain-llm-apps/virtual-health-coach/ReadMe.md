@@ -38,9 +38,9 @@
 ## Technologies used in this project:
 
 #### **Hardware:** 
-| **TOOL**       | **TYPE**| **Version**| **Comments**
-| :---------------- | :------: | ----: |  :----: | 
-| MacBook Pro         |   Hardware Device | Ventura 13.6.1 | Used for the development of the project.
+| **TOOL**       | **TYPE**| **Operating System**| **Version**| **Comments**
+| :---------------- | :------: |  :------: |----: |  :----: | 
+| MacBook Pro         |   Hardware Device | MacOS | Ventura 13.6.1 | Used for the development of the project.
 
 #### **Software:**
 | **TOOL**       | **TYPE**| **Version**| **Comments**
