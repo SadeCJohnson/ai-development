@@ -37,10 +37,12 @@
 
 ## Technologies used in this project:
 
-#### Hardware: 
-* MacBook Pro running the **Ventura 13.6.1** macOS
+#### **Hardware:** 
+| **TOOL**       | **TYPE**| **Version**| **Comments**
+| :---------------- | :------: | ----: |  :----: | 
+| MacBook Pro         |   Hardware Device | Ventura 13.6.1 | Used for the development of the project.
 
-#### Software:
+#### **Software:**
 | **TOOL**       | **TYPE**| **Version**| **Comments**
 | :---------------- | :------: | ----: |  :----: | 
 | Visual Studio Code (VSCode)         |   Text Editor  | 1.76.2 | Used for the development of the project.
