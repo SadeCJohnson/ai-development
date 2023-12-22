@@ -39,12 +39,12 @@
 
 #### **Hardware:** 
 | **TOOL**       | **TYPE**| **Operating System**| **Version**| **Comments**
-| :---------------- | :------: |  :------: |----: |  :----: | 
+| :----------------: | :------: |  :------: |----: |  :----: | 
 | MacBook Pro         |   Hardware Device | MacOS | Ventura 13.6.1 | Used for the development of the project.
 
 #### **Software:**
 | **TOOL**       | **TYPE**| **Version**| **Comments**
-| :---------------- | :------: | ----: |  :----: | 
+| :----------------: | :------: | ----: |  :----: | 
 | Visual Studio Code (VSCode)         |   Text Editor  | 1.76.2 | Used for the development of the project.
 | Python         |   Programming Language   | 3.11.2 | Used to develop the project.
 | FAISS       |  Vector source | 1.7.4 | The Facebook Artificial Intelligence Similarity Search was used as the vector source.
