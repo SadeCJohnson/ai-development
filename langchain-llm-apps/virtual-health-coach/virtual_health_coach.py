@@ -9,11 +9,16 @@ from dotenv import load_dotenv
 
 # New Relic AI Monitoring - STEP 1
 from nr_openai_observability.langchain_callback import NewRelicCallbackHandler
+#Instrument New Relic's OpenAAI Observability tool 
+from nr_openai_observability import monitor
 
 load_dotenv()
 
 # Initialize New Relic CallBack Handler, for the AI Monitoring - STEP 2
-new_relic_monitor = NewRelicCallbackHandler("Virtual Health Coach", license_key="<INSERT YOUR LICENSE KEY HERE>")
+new_relic_monitor = NewRelicCallbackHandler("SCJ's Virtual Health Coach", license_key="<INSERT YOUR KEY HERE>")
+
+#Create model monitor
+monitor.initialization(application_name="SCJ's Virtual Health Coach", license_key="<INSERT YOUR KEY HERE")
 
 embeddings = OpenAIEmbeddings()
 
@@ -22,10 +27,8 @@ video_url = "https://www.youtube.com/watch?v=a3PjNwXd09M"
 
 
 def create_vector_db_from_youtube_url(video_url:str) -> FAISS:
-    #load the youtube video from the url
-    loader = YoutubeLoader.from_youtube_url(video_url)
-    #save the video into the transcript variable
-    transcript = loader.load()
+    loader = YoutubeLoader.from_youtube_url(video_url) #load the youtube video from the url
+    transcript = loader.load()  #saves the video into the transcript variable
 
     #because there is a token limit on how much info we can send to openai, we split the amount of context we send for a youtube transcript
     #this demo uses the GPT3.5 model, specifically the text-davinci-003, which has a context window of 4096 tokens
@@ -41,17 +44,13 @@ def create_vector_db_from_youtube_url(video_url:str) -> FAISS:
 
 
 def get_response_from_query(db, query, k=4): #k represents the # of Documents to send to stay within the token context window
-    #text-davinci-003 has a context window of 4096 tokens
-    # gpt-4-1106-preview has a context window of 128,000 tokens and has training data from up to April 2023
+    #gpt-3.5-turbo-instruct has a context window of 4096 tokens
 
     docs = db.similarity_search(query, k=k) #this will only search the documents relevant to the user's query
     docs_page_content = " ".join([d.page_content for d in docs]) #combines the 4 docs into a single doc
 
     #Work with the LLM - 
-    #TODO: Upgrade the LLM to gpt-4-1106-preview since it has a larger context window
-    llm = OpenAI(model="text-davinci-003") #This LLM deprecates on Jan 4th 2024
-    #llm = OpenAI(model="gpt-4-1106-preview")
-
+    llm = OpenAI(model="gpt-3.5-turbo-instruct") 
     #Work with the Prompt
     prompt = PromptTemplate(
         input_variables=["question", "docs"], #docs is the similarity search
