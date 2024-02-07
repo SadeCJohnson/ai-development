@@ -63,11 +63,11 @@ def get_response_from_query(db, query, k=4): #k represents the # of Documents to
 
         Only use the factual information from the transcript to answer the question.input_types=
         
-        If you feel like you don't have enough information to answer the question, say "I don't know"
         
         Your answers should be detailed.
         """,
     )
+# This belongs on line 66 to prevent the AI Hallucination: If you feel like you don't have enough information to answer the question, say "I don't know"
 
     #Work with the Chain component
     chain = LLMChain(llm=llm, prompt=prompt)
