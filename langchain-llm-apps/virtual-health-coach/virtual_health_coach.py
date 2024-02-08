@@ -15,10 +15,10 @@ from nr_openai_observability import monitor
 load_dotenv()
 
 # Initialize New Relic CallBack Handler, for the AI Monitoring - STEP 2
-new_relic_monitor = NewRelicCallbackHandler("SCJ's Virtual Health Coach", license_key="3450eebc55430474ebffc8aa9b0ee733FFFFNRAL")
+new_relic_monitor = NewRelicCallbackHandler("SCJ's Virtual Health Coach", license_key="<INSERT INGEST LICENSE KEY HERE>")
 
 #Create model monitor
-monitor.initialization(application_name="SCJ's Virtual Health Coach", license_key="3450eebc55430474ebffc8aa9b0ee733FFFFNRAL")
+monitor.initialization(application_name="SCJ's Virtual Health Coach", license_key="<INSERT INGEST LICENSE KEY HERE>")
 
 embeddings = OpenAIEmbeddings()
 
