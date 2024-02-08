@@ -15,10 +15,10 @@ from nr_openai_observability import monitor
 load_dotenv()
 
 # Initialize New Relic CallBack Handler, for the AI Monitoring - STEP 2
-new_relic_monitor = NewRelicCallbackHandler("SCJ's Virtual Health Coach", license_key="<INSERT YOUR KEY HERE>")
+new_relic_monitor = NewRelicCallbackHandler("SCJ's Virtual Health Coach", license_key="3450eebc55430474ebffc8aa9b0ee733FFFFNRAL")
 
 #Create model monitor
-monitor.initialization(application_name="SCJ's Virtual Health Coach", license_key="<INSERT YOUR KEY HERE")
+monitor.initialization(application_name="SCJ's Virtual Health Coach", license_key="3450eebc55430474ebffc8aa9b0ee733FFFFNRAL")
 
 embeddings = OpenAIEmbeddings()
 
@@ -31,16 +31,13 @@ def create_vector_db_from_youtube_url(video_url:str) -> FAISS:
     transcript = loader.load()  #saves the video into the transcript variable
 
     #because there is a token limit on how much info we can send to openai, we split the amount of context we send for a youtube transcript
-    #this demo uses the GPT3.5 model, specifically the text-davinci-003, which has a context window of 4096 tokens
+    #this demo uses the GPT3.5 model, specifically the gpt-3.5-turbo-instruct, which has a context window of 4096 tokens
     #so we're splitting it and storing it into vector stores
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
     docs = text_splitter.split_documents(transcript)
 
     db = FAISS.from_documents(docs, embeddings)
-    return db #returns a hex value such as: <langchain.vectorstores.faiss.FAISS object at 0x123ec12d0>
-    #return docs #returns the chunk of data
-
-#print(create_vector_db_from_youtube_url(video_url)) #included for testing purposes
+    return db 
 
 
 def get_response_from_query(db, query, k=4): #k represents the # of Documents to send to stay within the token context window
@@ -67,13 +64,12 @@ def get_response_from_query(db, query, k=4): #k represents the # of Documents to
         Your answers should be detailed.
         """,
     )
-# This belongs on line 66 to prevent the AI Hallucination: If you feel like you don't have enough information to answer the question, say "I don't know"
+#TODO: This belongs on line 66 to prevent the AI Hallucination: If you feel like you don't have enough information to answer the question, say "I don't know"
 
     #Work with the Chain component
     chain = LLMChain(llm=llm, prompt=prompt)
 
     # Run the Langchain module with the New Relic Callback - STEP 3
     response = chain.run(question=query, docs=docs_page_content)
-  #  print("Agent has successfully completed.")
     response = response.replace("\n", "") #formatting
     return response, docs 
