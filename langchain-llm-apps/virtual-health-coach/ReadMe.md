@@ -82,7 +82,7 @@
 8. To install all of the required tools to get this project up and running (found in the `requirements.txt` file), run `pip3 install -r requirements.txt`.
 9. Launch the application via `streamlit run main.py`.
 10. At this point, you might've come across this error when trying to launch the application:
-![Open AI Key Required](/virtual-health-coach/supporting-images/OPENAI-Key-Required.png)
+![Open AI Key Required](/langchain-llm-apps/virtual-health-coach/supporting-images/OPENAI-Key-Required.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
