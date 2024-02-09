@@ -82,7 +82,19 @@
 8. To install all of the required tools to get this project up and running (found in the `requirements.txt` file), run `pip3 install -r requirements.txt`.
 9. Launch the application via `streamlit run main.py`.
 10. At this point, you might've come across this error when trying to launch the application:
-![Open AI Key Required](/langchain-llm-apps/virtual-health-coach/supporting-images/OPENAI-Key-Required.png)
+![Open AI Key Required](/langchain-llm-apps/virtual-health-coach/supporting-images/OPENAI-Key-Required.png).
+11. To resolve this error, head over to OpenAI's documentation to 
+  a. [Sign up for an OpenAI account](https://platform.openai.com/signup)
+  b. Visit the **API Keys** page to [Create a new secret key](https://platform.openai.com/account/api-keys). Carefully follow the instructions presented to you during this creation process.
+12. Now that you have an API key, you'll need to save it as an environment variable so you can use it to access the application. To do this:
+  a. Run `vi ~/.zshrc` on the terminal
+  b. When in the **vi text editor**, select the letter `i` on the keyboard. Copy and paste this configuration `export OPENAI_API_KEY='your-api-key-here'` into the file.
+  c. Once you've added your OpenAI API Key to the file, press the `ESC` key, then `wq!`, and finally the `RETURN` key. This saves the OpenAI API key as an environment variable.
+  d. To ensure this OpenAI API key is being picked up by the application, load it via the `source ~/.zshrc` command, followed by pressing the `RETURN` key. [***Note: Executing this step will cause you to exit the virtual environment. You'll need to navigate back to the directory where the virtual environment was initially created  (see step 3 and step 5).***]
+  e. Verify the setup by typing in `echo $OPENAI_API_KEY` into the terminal window, followed by pressing the `RETURN` key. 
+13. Navigate to the project files via `cd ai-development/langchain-llm-apps/virtual-health-coach/`.
+14. Relaunch the application via `streamlit run main.py`. You should see something like the following:
+![Virtual Health Coach Demo](/langchain-llm-apps/virtual-health-coach/supporting-images/Virtual-Health-Coach-Demo.mov)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

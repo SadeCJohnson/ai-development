@@ -6,4 +6,4 @@ packaging==23.2
 faiss-cpu==1.7.4
 youtube-transcript-api==0.6.1
 nr-openai-observability
-
+tiktoken
