@@ -72,7 +72,18 @@
 - Ensure that you have access to a variation of the technologies listed in the **Technologies used in this project** section of this file.
 
 ### Installation
-***COMING SOON***
+1. Open up the Mac Terminal.
+2. Create a directory `mkdir techievibez` (to keep the project organized).
+3. Navigate into that directory via `cd techievibez`.
+4. Create a virtual environment `python3 -m venv aiVirtualEnv`.
+5. Activate the newly created virtual environment to use, via `source aiVirtualEnv/bin/activate`. You will now enter into the virtual environment.
+6. Copy the project files via `git clone https://github.com/SadeCJohnson/ai-development.git`
+7. Navigate to the folder that contains the Virtual Health Coach via ` cd ai-development/langchain-llm-apps/virtual-health-coach`
+8. To install all of the required tools to get this project up and running (found in the `requirements.txt` file), run `pip3 install -r requirements.txt`.
+9. Launch the application via `streamlit run main.py`.
+10. At this point, you might've come across this error when trying to launch the application:
+![Open AI Key Required](/virtual-health-coach/supporting-images/OPENAI-Key-Required.png)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Instrumentation
