@@ -94,7 +94,7 @@
   * Verify the setup by typing in `echo $OPENAI_API_KEY` into the terminal window, followed by pressing the `RETURN` key. 
 13. Navigate to the project files via `cd ai-development/langchain-llm-apps/virtual-health-coach/`.
 14. Relaunch the application via `streamlit run main.py`. You should see something like the following:
-![Virtual Health Coach Demo](https://www.canva.com/design/DAF8QU7Ena0/RKAyF2Ooqy33qc8FLX-sbg/watch?utm_content=DAF8QU7Ena0&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel)
+![Virtual Health Coach Demo](/langchain-llm-apps/virtual-health-coach/supporting-images/VirtualHealthCoachDemo.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
