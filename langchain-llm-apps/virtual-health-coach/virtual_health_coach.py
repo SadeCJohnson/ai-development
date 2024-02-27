@@ -49,7 +49,7 @@ def get_response_from_query(db, query, k=4): #k represents the # of Documents to
     prompt = PromptTemplate(
         input_variables=["question", "docs"], #docs is the similarity search
         template="""
-        You are a helpful  Virtual Health Coach that can answer questions about videos
+        You are a helpful  Virtual Health Coach that can answer questions about the plant based lifestyle
         based on the video's transcript.input_types=
         
         Answer the following question: {question}
