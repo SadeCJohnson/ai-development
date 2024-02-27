@@ -8,17 +8,14 @@ from langchain.vectorstores.faiss import FAISS # faiss -> Facebook AI Similarity
 from dotenv import load_dotenv
 
 # New Relic AI Monitoring - STEP 1
-from nr_openai_observability.langchain_callback import NewRelicCallbackHandler
-#Instrument New Relic's OpenAAI Observability tool 
 from nr_openai_observability import monitor
 
 load_dotenv()
 
 # Initialize New Relic CallBack Handler, for the AI Monitoring - STEP 2
-new_relic_monitor = NewRelicCallbackHandler("SCJ's Virtual Health Coach", license_key="<INSERT INGEST LICENSE KEY HERE>")
 
 #Create model monitor
-monitor.initialization(application_name="SCJ's Virtual Health Coach", license_key="<INSERT INGEST LICENSE KEY HERE>")
+monitor.initialization()
 
 embeddings = OpenAIEmbeddings()
 
@@ -52,7 +49,7 @@ def get_response_from_query(db, query, k=4): #k represents the # of Documents to
     prompt = PromptTemplate(
         input_variables=["question", "docs"], #docs is the similarity search
         template="""
-        You are a helpful YouTube assistant that can answer questions about videos
+        You are a helpful  Virtual Health Coach that can answer questions about videos
         based on the video's transcript.input_types=
         
         Answer the following question: {question}
