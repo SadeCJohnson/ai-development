@@ -6,7 +6,9 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.vectorstores.faiss import FAISS # faiss -> Facebook AI Similarity Search library
 from dotenv import load_dotenv
+import newrelic.agent
 
+#newrelic.agent.initialize('/newrelic.ini')
 # New Relic AI Monitoring - STEP 1
 from nr_openai_observability import monitor
 
@@ -22,7 +24,7 @@ embeddings = OpenAIEmbeddings()
 #Youtube Video Topic: Simon Hill PROVES The Merits of A PLANT-BASED DIET | Rich Roll Podcast
 video_url = "https://www.youtube.com/watch?v=a3PjNwXd09M"
 
-
+@newrelic.agent.background_task()
 def create_vector_db_from_youtube_url(video_url:str) -> FAISS:
     loader = YoutubeLoader.from_youtube_url(video_url) #load the youtube video from the url
     transcript = loader.load()  #saves the video into the transcript variable
@@ -36,7 +38,7 @@ def create_vector_db_from_youtube_url(video_url:str) -> FAISS:
     db = FAISS.from_documents(docs, embeddings)
     return db 
 
-
+@newrelic.agent.background_task()
 def get_response_from_query(db, query, k=4): #k represents the # of Documents to send to stay within the token context window
     #gpt-3.5-turbo-instruct has a context window of 4096 tokens
 
