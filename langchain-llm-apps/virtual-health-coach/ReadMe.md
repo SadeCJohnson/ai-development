@@ -99,7 +99,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Instrumentation
-***coming soon!!***
+* To instrument this Python application with the New Relic platform, follow the [Python Agent Installation guide](https://newrelic.com/instant-observability/python) 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -111,26 +111,11 @@
 
 <!-- Project Enhancements -->
 ## Project Enhancements
-***COMING SOON***
+ * Improve the UI / Implement a better design.
+ * Add additional resources to make the chatbot more knowledgeable.
+  * Right now, a single YouTube video is the sole source of information, but pdfs, ebooks, etc can be added.
+ * Experiment with other LLMs to measure and compare the performance of each, to essentially select the best one. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- Contributing -->
-## Contributing
-***COMING SOON***
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- License -->
-## License
-***COMING SOON***
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Contact -->
-## Contact
-***COMING SOON***
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 
@@ -142,7 +127,7 @@
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-
+* [YouTube Assistant Idea](https://github.com/rishabkumar7/youtube-assistant-langchain?tab=readme-ov-file)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template/tree/master)
 * [Simon Hill PROVES The Merits of A PLANT-BASED DIET | Rich Roll Podcast](https://www.youtube.com/watch?v=a3PjNwXd09M)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
