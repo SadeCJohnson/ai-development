@@ -20,9 +20,6 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Project Enhancements</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 
@@ -99,13 +96,13 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Instrumentation
-* To instrument this Python application with the New Relic platform, follow the [Python Agent Installation guide](https://newrelic.com/instant-observability/python) 
+* To instrument this Python application with the New Relic platform, follow the [Python Agent Installation guide](https://newrelic.com/instant-observability/python). 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- USAGE EXAMPLES -->
+<!-- Usage Purpose -->
 ## Usage
-***COMING SOON***
+* Looking to enhance the quality of your life and align it more with the plantbased lifestyle, try using this app. If you have any feedback, please feel free to let me know or fork this repo and enhance it yourself!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
