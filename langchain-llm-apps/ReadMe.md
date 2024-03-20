@@ -30,7 +30,8 @@
 ## Project Overview:
 This repository consists of 2 projects that use the OpenAI and Langchain technologies.
 * A [pet name generator application](https://github.com/SadeCJohnson/ai-development/tree/main/langchain-llm-apps/pet-name-generator).
-* An [AI assisted virtual health coach](https://github.com/SadeCJohnson/ai-development/tree/main/langchain-llm-apps/virtual-health-coach) application [**RECOMMENDED READ**]
+* An [AI assisted virtual health coach](https://github.com/SadeCJohnson/ai-development/tree/main/langchain-llm-apps/virtual-health-coach) application. [**RECOMMENDED READ**]
+  * Check out my [blogpost](https://newrelic.com/blog/how-to-relic/first-gen-ai-chatbot) that discusses this app:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
